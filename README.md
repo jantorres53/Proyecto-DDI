@@ -1,21 +1,23 @@
-# Proyecto-DDI 
-Requerimientos del proyecto
+# Proyecto-DDI
 
-# Nombre del proyecto.
-  - WanderWise
+## WanderWise
 
-##  Enunciado de visión
-Este proyecto consiste en desarrollar una aplicación móvil que registre automáticamente el tiempo que el usuario pasa en diferentes ubicaciones, el recorrido que realiza, y proporcione estadísticas relevantes. Además, la aplicación ofrecerá recomendaciones personalizadas sobre actividades, lugares de interés y servicios disponibles en la ubicación actual del usuario. La aplicación será compatible tanto con teléfonos móviles como con dispositivos wearables, lo que permitirá una experiencia de usuario más completa y flexible.
+### Enunciado de Visión
+WanderWise es una aplicación móvil diseñada para registrar automáticamente el tiempo que los usuarios pasan en diferentes ubicaciones, así como los recorridos realizados, proporcionando estadísticas relevantes. La aplicación ofrecerá recomendaciones personalizadas sobre actividades, lugares de interés y servicios disponibles en la ubicación actual del usuario. Será compatible tanto con teléfonos móviles como con dispositivos wearables, ofreciendo una experiencia de usuario completa y flexible.
 
-# Software empleado.
+---
+
+## Software Empleado
 
 - [Git](https://git-scm.com/)
 - [VScode](https://code.visualstudio.com/download)
 - [Postman](https://www.postman.com/downloads/)
-- [Android Studio](https://developer.android.com/studio?gad_source=1&gclid=EAIaIQobChMIxq_jt7j_hQMV543CCB3DsA9ZEAAYASAAEgKiXfD_BwE&gclsrc=aw.ds&hl=es-419)
+- [Android Studio](https://developer.android.com/studio)
 - [Flutter SDK](https://flutter.dev/)
 - [NodeJS](https://nodejs.org/en/download/current)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+### Extensiones de VScode
 
 - [Paste Json as Code](https://marketplace.visualstudio.com/items?itemName=typeguard.quicktype-vs)
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
@@ -25,135 +27,139 @@ Este proyecto consiste en desarrollar una aplicación móvil que registre autom�
 - [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist)
 - [lOREM](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
 
-  # Hardware empleado.
+---
+
+## Hardware Empleado
 
 ### Para Teléfonos Móviles
 
 - **GPS (Global Positioning System)**
-  - Utilizado para el seguimiento preciso de la ubicación del usuario.
-  
+  - Seguimiento preciso de la ubicación del usuario.
 - **Acelerómetro**
-  - Mide la aceleración del dispositivo, útil para detectar el movimiento y la actividad del usuario.
-  
+  - Medición de la aceleración del dispositivo.
 - **Giroscopio**
-  - Complementa el acelerómetro para proporcionar datos sobre la orientación y el movimiento del dispositivo.
-  
+  - Datos sobre la orientación y movimiento del dispositivo.
 - **Magnetómetro**
-  - Ayuda en la determinación de la dirección y puede mejorar la precisión del seguimiento de la ubicación.
-  
+  - Determinación de la dirección y mejora de la precisión del seguimiento.
 - **Barómetro**
-  - Mide la presión atmosférica, lo que puede ser útil para determinar la altitud y mejorar la precisión de la ubicación en entornos cerrados.
+  - Medición de la presión atmosférica, útil para determinar la altitud.
 
 ### Para Dispositivos Wearables
 
 - **GPS (si está disponible)**
-  - Algunos wearables avanzados tienen GPS incorporado para el seguimiento de la ubicación sin depender de un teléfono móvil.
-  
+  - Seguimiento de la ubicación sin depender de un teléfono móvil.
 - **Acelerómetro**
-  - Similar a los teléfonos móviles, se utiliza para medir la actividad física del usuario.
-  
+  - Medición de la actividad física del usuario.
 - **Giroscopio**
-  - Proporciona datos sobre la orientación y el movimiento del dispositivo.
-  
+  - Datos sobre la orientación y movimiento del dispositivo.
 - **Magnetómetro**
-  - Ayuda con la dirección y mejora la precisión del seguimiento de la ubicación.
-  
+  - Mejora de la precisión del seguimiento de la ubicación.
 - **Sensores de Frecuencia Cardíaca**
-  - Pueden ofrecer datos adicionales sobre la actividad del usuario, lo que puede ser útil para personalizar recomendaciones.
+  - Datos adicionales sobre la actividad del usuario.
+
+---
 
 ## Dispositivos Específicos Recomendados
 
 ### Teléfonos Móviles
-- **Apple iPhone** (modelos recientes): iPhone 12, iPhone 13, etc.
+- **Apple iPhone**: iPhone 12, iPhone 13, etc.
 - **Android Phones**: Google Pixel, Samsung Galaxy S series, etc.
 
 ### Wearables
-- **Apple Watch** (modelos recientes): Series 6, Series 7, etc.
+- **Apple Watch**: Series 6, Series 7, etc.
 - **Fitbit**: Fitbit Charge 5, Fitbit Versa 3, etc.
 - **Garmin**: Garmin Forerunner, Garmin Venu, etc.
 - **Samsung Galaxy Watch**: Galaxy Watch 4, etc.
 
+---
+
 ## Conectividad
 
 - **Bluetooth Low Energy (BLE)**
-  - Para sincronización eficiente y de bajo consumo entre el teléfono móvil y el wearable.
-  
+  - Sincronización eficiente entre el teléfono móvil y el wearable.
 - **Wi-Fi**
-  - Para transferencias de datos más rápidas y sincronización cuando esté disponible.
-  
+  - Transferencias de datos más rápidas y sincronización.
 - **LTE/Cellular**
-  - Algunos wearables avanzados pueden tener conectividad LTE para funcionar independientemente del teléfono móvil.
+  - Conectividad LTE para wearables avanzados.
+
+---
 
 ## Consideraciones Adicionales
 
 - **Batería y Consumo de Energía**
-  - Asegúrate de optimizar el uso de los sensores para conservar la batería de los dispositivos.
-  
+  - Optimización del uso de los sensores para conservar la batería.
 - **Compatibilidad**
-  - Verifica la compatibilidad con los sistemas operativos más comunes (iOS y Android) y considera el desarrollo de aplicaciones nativas para cada plataforma.
-  
+  - Verificación de la compatibilidad con iOS y Android, y desarrollo de aplicaciones nativas.
 - **Seguridad y Privacidad**
-  - Implementa medidas robustas para proteger los datos de ubicación y personales de los usuarios.
- 
+  - Medidas robustas para proteger los datos de ubicación y personales.
+
+---
+
 ## Historias de Usuario
 
 ### Registro de Ubicación y Movimiento
 
-1. **Como usuario, quiero que la aplicación registre automáticamente mi ubicación para poder ver un historial de mis visitas a diferentes lugares.**
+1. **Registro Automático de Ubicación**
    - **Criterios de aceptación:**
-     - La aplicación debe registrar la ubicación utilizando GPS.
-     - Los datos deben almacenarse de forma segura y ser accesibles solo para el usuario.
-     - El historial de ubicaciones debe ser visible en un mapa dentro de la aplicación.
+     - Uso de GPS para registrar la ubicación.
+     - Almacenamiento seguro de datos accesibles solo para el usuario.
+     - Historial visible en un mapa dentro de la aplicación.
 
-2. **Como usuario, quiero que la aplicación registre mis recorridos para poder ver la ruta que he seguido durante el día.**
+2. **Registro de Recorridos**
    - **Criterios de aceptación:**
-     - La aplicación debe registrar la ruta utilizando GPS, acelerómetro y giroscopio.
-     - La ruta debe ser visible en un mapa interactivo.
-     - La aplicación debe proporcionar estadísticas sobre la distancia recorrida y el tiempo empleado.
+     - Uso de GPS, acelerómetro y giroscopio para registrar la ruta.
+     - Ruta visible en un mapa interactivo.
+     - Estadísticas de distancia y tiempo.
 
 ### Estadísticas y Análisis
 
-3. **Como usuario, quiero ver estadísticas sobre el tiempo que paso en diferentes ubicaciones para entender mejor mis patrones de movilidad.**
+3. **Estadísticas de Tiempo en Ubicaciones**
    - **Criterios de aceptación:**
-     - La aplicación debe mostrar estadísticas diarias, semanales y mensuales.
-     - Las estadísticas deben incluir el tiempo total en cada ubicación y la frecuencia de visitas.
-     - Los datos deben ser presentados de forma gráfica y fácil de entender.
+     - Estadísticas diarias, semanales y mensuales.
+     - Tiempo total y frecuencia de visitas.
+     - Presentación gráfica de datos.
 
-4. **Como usuario, quiero recibir notificaciones sobre mi actividad para poder ajustar mis hábitos si es necesario.**
+4. **Notificaciones de Actividad**
    - **Criterios de aceptación:**
-     - La aplicación debe enviar notificaciones cuando el usuario pase demasiado tiempo en un lugar o se mueva muy poco.
-     - Las notificaciones deben ser personalizables según las preferencias del usuario.
-     - La aplicación debe proporcionar recomendaciones sobre cómo mejorar los patrones de movilidad.
+     - Notificaciones de inactividad o demasiado tiempo en un lugar.
+     - Personalización de notificaciones.
+     - Recomendaciones para mejorar patrones de movilidad.
 
 ### Recomendaciones Personalizadas
 
-5. **Como usuario, quiero recibir recomendaciones sobre actividades y lugares de interés cerca de mi ubicación actual para aprovechar mejor mi tiempo.**
+5. **Recomendaciones de Actividades y Lugares**
    - **Criterios de aceptación:**
-     - La aplicación debe ofrecer recomendaciones basadas en la ubicación actual del usuario.
-     - Las recomendaciones deben incluir actividades, restaurantes, tiendas y eventos locales.
-     - Las recomendaciones deben actualizarse en tiempo real a medida que el usuario se mueve.
+     - Recomendaciones basadas en la ubicación actual.
+     - Inclusión de actividades, restaurantes, tiendas y eventos.
+     - Actualización en tiempo real.
 
-6. **Como usuario, quiero que la aplicación me sugiera rutas alternativas y lugares de interés durante mis recorridos para descubrir nuevos sitios.**
+6. **Sugerencias de Rutas y Lugares de Interés**
    - **Criterios de aceptación:**
-     - La aplicación debe analizar la ruta actual del usuario y sugerir desvíos interesantes.
-     - Las sugerencias deben incluir descripciones y valoraciones de otros usuarios.
-     - El usuario debe poder optar por seguir la ruta sugerida o ignorarla.
+     - Análisis de la ruta actual y sugerencias de desvíos.
+     - Descripciones y valoraciones de otros usuarios.
+     - Opciones para seguir o ignorar la ruta sugerida.
 
 ### Integración con Wearables
 
-7. **Como usuario que utiliza un wearable, quiero que la aplicación se sincronice con mi dispositivo para registrar mi actividad física y mejorar la precisión del seguimiento.**
+7. **Sincronización con Wearables**
    - **Criterios de aceptación:**
-     - La aplicación debe sincronizarse automáticamente con el wearable utilizando Bluetooth Low Energy (BLE).
-     - La información del wearable debe integrarse con los datos de la aplicación.
-     - La aplicación debe mostrar datos combinados de actividad física y ubicación.
+     - Sincronización automática mediante BLE.
+     - Integración de información del wearable.
+     - Visualización de datos combinados de actividad física y ubicación.
 
-8. **Como usuario que utiliza un wearable con sensores de frecuencia cardíaca, quiero que la aplicación utilice estos datos para ofrecer recomendaciones personalizadas basadas en mi nivel de actividad.**
+8. **Uso de Datos de Frecuencia Cardíaca**
    - **Criterios de aceptación:**
-     - La aplicación debe registrar la frecuencia cardíaca y otros datos de actividad.
-     - Las recomendaciones deben ajustarse según el nivel de actividad y la salud del usuario.
-     - El usuario debe poder ver un resumen de su estado físico en la aplicación.
-##  Prototipo
+     - Registro de la frecuencia cardíaca.
+     - Recomendaciones ajustadas según nivel de actividad y salud.
+     - Resumen del estado físico en la aplicación.
 
+---
+
+## Prototipo
+
+![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/222512ed-8241-42cf-b760-7c15a6260e91)
+![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/47e733bf-33a8-4de5-a14a-2783ca8342a6)
+![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/35c24c83-a808-472f-b843-d1363f87168c)
 
 ## Tablero Trello
-- https://trello.com/invite/b/pmcREqsL/ATTIebd77814d28dd3db7696c5f728130108604FD161/proyecto-ddi
+- [Trello](https://trello.com/invite/b/pmcREqsL/ATTIebd77814d28dd3db7696c5f728130108604FD161/proyecto-ddi)
