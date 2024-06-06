@@ -6,6 +6,11 @@
 WanderWise es una aplicación móvil diseñada para registrar automáticamente el tiempo que los usuarios pasan en diferentes ubicaciones, así como los recorridos realizados, proporcionando estadísticas relevantes. La aplicación ofrecerá recomendaciones personalizadas sobre actividades, lugares de interés y servicios disponibles en la ubicación actual del usuario. Será compatible tanto con teléfonos móviles como con dispositivos wearables, ofreciendo una experiencia de usuario completa y flexible.
 
 ---
+## Integrantes.
+ -Martin Gabriel Godínez Morales.
+ -Francisco Alvarez Ramírez.
+ -Cesar Daniel Casillas Cespedes.
+ -Juan Antonio Rincon Torres.
 
 ## Software Empleado
 
