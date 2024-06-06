@@ -20,7 +20,6 @@ WanderWise es una aplicación móvil diseñada para registrar automáticamente e
 - [Android Studio](https://developer.android.com/studio)
 - [Flutter SDK](https://flutter.dev/)
 - [NodeJS](https://nodejs.org/en/download/current)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ### Extensiones de VScode
 
