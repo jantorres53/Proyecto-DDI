@@ -7,10 +7,10 @@ WanderWise es una aplicación móvil diseñada para registrar automáticamente e
 
 ---
 ## Integrantes.
- -Martin Gabriel Godínez Morales.
- -Francisco Alvarez Ramírez.
- -Cesar Daniel Casillas Cespedes.
- -Juan Antonio Rincon Torres.
+ - Martin Gabriel Godínez Morales.
+ - Francisco Alvarez Ramírez.
+ - Cesar Daniel Casillas Cespedes.
+ - Juan Antonio Rincon Torres.
 
 ## Software Empleado
 
