@@ -157,9 +157,9 @@ WanderWise es una aplicación móvil diseñada para registrar automáticamente e
 
 ## Prototipo
 
-![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/222512ed-8241-42cf-b760-7c15a6260e91)
-![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/47e733bf-33a8-4de5-a14a-2783ca8342a6)
-![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/35c24c83-a808-472f-b843-d1363f87168c)
+![New Wireframe 1](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/5df19be6-81ae-4338-bb70-8fd2e7a682a4)
+![image](https://github.com/jantorres53/Proyecto-DDI/assets/123511310/848f999d-75ef-4793-99d2-7a60a5c98e39)
+
 
 ## Tablero Trello
 - [Trello](https://trello.com/invite/b/pmcREqsL/ATTIebd77814d28dd3db7696c5f728130108604FD161/proyecto-ddi)
