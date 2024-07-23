@@ -47,6 +47,8 @@ WanderWise es una aplicación móvil diseñada para registrar automáticamente e
   - Determinación de la dirección y mejora de la precisión del seguimiento.
 - **Barómetro**
   - Medición de la presión atmosférica, útil para determinar la altitud.
+- **Sensor de Temperatura y Humedad**
+  - Medición de las condiciones ambientales del entorno del usuario.
 
 ### Para Dispositivos Wearables
 
@@ -60,6 +62,8 @@ WanderWise es una aplicación móvil diseñada para registrar automáticamente e
   - Mejora de la precisión del seguimiento de la ubicación.
 - **Sensores de Frecuencia Cardíaca**
   - Datos adicionales sobre la actividad del usuario.
+- **Sensor de Ritmo Cardíaco y Oxigenación**
+  - Monitorización de la salud y bienestar del usuario.
 
 ---
 
